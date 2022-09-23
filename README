@@ -4,10 +4,13 @@ Modifica Openvas_reporting XML to XLSX
 
 git clone https://github.com/TheGroundZero/openvasreporting.git
     # Install required python packages
-    pip3 install -r requirement.txt
+    
     cd openvasreporting
     pip3 install pip --upgrade
     pip3 install build --upgrade
+    pip3 install -r requirement.txt
     python -m build
     # Install module
     pip3 install dist/OpenVAS_Reporting-X.x.x-py3-xxxx-xxx.whl
+
+
