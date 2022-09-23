@@ -10,3 +10,4 @@ git clone https://github.com/TheGroundZero/openvasreporting.git
     python -m build
     # Install module
     pip3 install dist/OpenVAS_Reporting-X.x.x-py3-xxxx-xxx.whl
+
