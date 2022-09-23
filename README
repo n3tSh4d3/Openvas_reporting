@@ -13,4 +13,6 @@ git clone https://github.com/TheGroundZero/openvasreporting.git
     # Install module
     pip3 install dist/OpenVAS_Reporting-X.x.x-py3-xxxx-xxx.whl
 
-
+    # usage
+    
+    python3 -m openvasreporting -T host -i report-3b18bfb0-a9ec-4ed7-88e9-02e507d8d5fe.xml -f xlsx -o provaHost
